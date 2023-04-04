@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+   <!-- home section design -->
+   <section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello,Its Me</h3>
+        <h1>Kirandeep.k</h1>
+        <h3>And I'm a <span>Designer</span></h3>
+        <p>As website designer, my portfolio showcases my ability to create beautiful and functional websites that effectively communicate my clients' brand and message. </p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a> 
+            </div>    
+                <a href="#" class="btn">Download CV</a>  
+            </div>
+            <div class="home-img">
+                <img src="images/mypic.jpg" alt="">
+            </div>
+   </section>
+
+   <!-- about section design-->
+   <section class="about" id="about">
+    <div class="about-img">
+        <img src="images/home.png" alt="">
+    </div>
+
+    <div class="about-content">
+        <h2 class="heading">about<span> Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>Hi there, I'm Kirandeep.k, a MCA student and front-end developer with a strong creative streak and a dedication to excellence. With experience in HTML, CSS, and JavaScript, I have developed a deep understanding of how to translate complex design concepts into beautiful, functional, and interactive interfaces. From wireframes to mockups to prototypes, 
+        I love every stage of the design process and am always looking for ways to push the boundaries of what is possible with front-end development.</p>
+             <a href="#" class="btn">Read More</a>
+    </div>
+   </section>
+
+   <!--service section design-->
+   <section class="services" id="services">
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="services-container">
+        <div class="services-box">
+            <i class='bx bx-code-alt'></i>
+            <h3>Web Developement</h3>
+            <p>Web development involves designing, building, and maintaining websites and web applications. It encompasses a wide range
+                 of technologies and skills, including web design, HTML, CSS, JavaScript, and various backend programming languages and frameworks.</p>
+            <a href="#" class="btn">Read More</a>
+
+        </div>
+
+
+        <div class="services-box">
+            <i class='bx bxs-paint'></i>
+            <h3>Graphic Designer</h3>
+            <p>Graphic design is the art and practice of creating visual content to communicate messages or 
+                ideas to a specific audience. This can include designing logos, branding, websites, marketing materials, packaging, and much more.</p>
+            <a href="#" class="btn">Read More</a>
+
+        </div>
+
+
+        <div class="services-box">
+            <i class='bx bx-bar-chart-alt'></i>
+            <h3>Digital Marketing</h3>
+            <p>Digital marketing refers to the use of digital channels and technologies to promote products, services, or brands. The primary goal of digital marketing is to reach and engage with 
+                target audiences online, with the aim of driving website traffic, generating leads, and increasing conversions and sales.</p>
+            <a href="#" class="btn">Read More</a>
+
+        </div>
+    </div>
+   </section>
+
+   <!--Portofolio section-->
+   <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest<span>Project</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="images/lib.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Library Management System</h4>
+                <p>Online LIB System using Django</p>
+               
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/university.png" alt="">
+            <div class="portfolio-layer">
+                <h4>University Management System</h4>
+                <p>Online University System using J2EE</p>
+                
+            </div>
+        </div>
+    
+        <div class="portfolio-box">
+            <img src="images/parkinsons.jpeg" alt="">
+            <div class="portfolio-layer">
+                <h4>Parkinsons Disease Detection System</h4>
+                <p>This disease detection system is made using Machine learning </p>
+               
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="images/chatapplication.jpeg" alt="">
+            <div class="portfolio-layer">
+                <h4>Real time chatApplication</h4>
+                <p>Chatapplication using Django Framework</p>
+               
+            </div>
+        </div>
+    
+        <div class="portfolio-box">
+            <img src="images/clothx.png" alt="">
+            <div class="portfolio-layer">
+                <h4>clothx</h4>
+                <p>Clothsx is an ecommerce idea designed using figma</p>
+               
+            </div>
+        </div>
+    </div>
+
+
+   </section>
+    <!--Contact design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+
+        <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+        </div>
+
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+    </div>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+    <input type="submit" value="Send Messaage" class="btn">
+    </form>
+   </section>
+
+   <footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by Kirandeep.k | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- custom js -->
+<script src="js/script.js"></script>
+</body>
+</html>
